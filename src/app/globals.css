@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@800&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --dark-blue: #032D60;
+  --blue: #0176D3;
+  --light-blue: #00A1E0;
+  --dark-purple: #4A2047;
+  --purple: #9E63C5;
+  --light-blue-2: #EAF5FE;
+  --white: #FFFFFF;
+  --black: #231F20;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+small, a, li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+.button-outline {
+  color: var(--blue);
+  background-color: white;
+
+  border: 2rem solid var(--blue);
+}
+
+.button-select, .button-outline:hover {
+  color: white;
+  background-color: var(--blue);
+}
+
+ul, li, a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li, a {
+  font-size: 1rem;
+  font-weight: 400;
+
+  text-transform: uppercase;
+}
+
+
+
+
+
